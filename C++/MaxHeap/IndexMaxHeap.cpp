@@ -109,7 +109,7 @@ public:
 
         Item ret = data[1];
 
-        swap(data[1], data[count--]);
+        swap(indexs[1], indexs[count--]);
         reverse[indexs[1]] = 1;
         reverse[indexs[count + 1 ]] = 0 ;
         shiftDown(1);
