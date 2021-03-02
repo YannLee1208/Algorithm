@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/SegmentTree/SegmentTree.h
+iostream
+/Users/apple/Desktop/CS/算法/Algorithm/C++/SegmentTree/iostream
+cassert
+/Users/apple/Desktop/CS/算法/Algorithm/C++/SegmentTree/cassert
+functional
+/Users/apple/Desktop/CS/算法/Algorithm/C++/SegmentTree/functional
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/SegmentTree/main.cpp
+iostream
+-
+SegmentTree.h
+/Users/apple/Desktop/CS/算法/Algorithm/C++/SegmentTree/SegmentTree.h
+
