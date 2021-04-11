@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/BubbleSort.cpp
+iostream
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/iostream
+Sort.h
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/InsertSort.cpp
+Sort.h
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
+iostream
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/iostream
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/MergeSort.cpp
+Sort.h
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
+iostream
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/iostream
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/main.cpp
+iostream
+-
+vector
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/vector
+Sort.h
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
+BubbleSort.cpp
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/BubbleSort.cpp
+InsertSort.cpp
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/InsertSort.cpp
+MergeSort.cpp
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/MergeSort.cpp
+
