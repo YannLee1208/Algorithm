@@ -18,4 +18,15 @@ public:
             }
         }
     }
+
+    void sort(Item* arr, int l, int r){
+        for (int i = l + 1; i < r; ++i) {
+            for (int j = i; j > l; --j) {
+                if (arr[j-1] > arr[j])
+                    std::swap(arr[j-1], arr[j]);
+                else
+                    break;
+            }
+        }
+    }
 };

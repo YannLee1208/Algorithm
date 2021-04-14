@@ -224,6 +224,33 @@ MergeSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/MergeSort.cpp.s
 .PHONY : MergeSort.cpp.s
 
+QuickSort.o: QuickSort.cpp.o
+
+.PHONY : QuickSort.o
+
+# target to build an object file
+QuickSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/QuickSort.cpp.o
+.PHONY : QuickSort.cpp.o
+
+QuickSort.i: QuickSort.cpp.i
+
+.PHONY : QuickSort.i
+
+# target to preprocess a source file
+QuickSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/QuickSort.cpp.i
+.PHONY : QuickSort.cpp.i
+
+QuickSort.s: QuickSort.cpp.s
+
+.PHONY : QuickSort.s
+
+# target to generate assembly for a file
+QuickSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/QuickSort.cpp.s
+.PHONY : QuickSort.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -269,6 +296,9 @@ help:
 	@echo "... MergeSort.o"
 	@echo "... MergeSort.i"
 	@echo "... MergeSort.s"
+	@echo "... QuickSort.o"
+	@echo "... QuickSort.i"
+	@echo "... QuickSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

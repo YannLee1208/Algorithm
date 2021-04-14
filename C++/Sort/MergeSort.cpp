@@ -4,6 +4,7 @@
 
 #include "Sort.h"
 #include "iostream"
+#include "InsertSort.cpp"
 
 template<typename Item>
 class MergeSort : public Sort<Item> {
@@ -16,14 +17,20 @@ private:
     // 对arr[l, .. r]的范围排序
     void _mergeSort(Item *arr, int l, int r) {
 
-        if (l >= r)
+//        if (r - l <= 15) {
+//            InsertSort<Item>().sort(arr, l, r);
+//            return;
+//        }
+
+        if ( l >= r)
             return;
 
         int mid = l + (r - l) / 2;
         _mergeSort(arr, l, mid);
         _mergeSort(arr, mid + 1, r);
 
-        _merge(arr, l, mid, r);
+        if (arr[mid] > arr[mid + 1])
+            _merge(arr, l, mid, r);
     }
 
     void _merge(Item *arr, int l, int mid, int r) {
@@ -49,5 +56,14 @@ private:
             }
         }
     }
+
+    void mergeSortBU(Item arr[], int n){
+
+        for (int sz = 1; sz <= n ; sz *= 2)
+            for (int i = 0; i + sz < n; i += 2 * sz)
+                // 对 arr[i, i+sz - 1] 和 arr[i+sz, i + 2*sz - 1] 进行归并
+                _merge(arr, i, i + sz - 1, std::min(i + 2 * sz - 1, n - 1));
+    }
+
 };
 

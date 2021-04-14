@@ -7,12 +7,17 @@ CMakeFiles/Sort.dir/BubbleSort.cpp.o: ../Sort.h
 CMakeFiles/Sort.dir/InsertSort.cpp.o: ../InsertSort.cpp
 CMakeFiles/Sort.dir/InsertSort.cpp.o: ../Sort.h
 
+CMakeFiles/Sort.dir/MergeSort.cpp.o: ../InsertSort.cpp
 CMakeFiles/Sort.dir/MergeSort.cpp.o: ../MergeSort.cpp
 CMakeFiles/Sort.dir/MergeSort.cpp.o: ../Sort.h
+
+CMakeFiles/Sort.dir/QuickSort.cpp.o: ../QuickSort.cpp
+CMakeFiles/Sort.dir/QuickSort.cpp.o: ../Sort.h
 
 CMakeFiles/Sort.dir/main.cpp.o: ../BubbleSort.cpp
 CMakeFiles/Sort.dir/main.cpp.o: ../InsertSort.cpp
 CMakeFiles/Sort.dir/main.cpp.o: ../MergeSort.cpp
+CMakeFiles/Sort.dir/main.cpp.o: ../QuickSort.cpp
 CMakeFiles/Sort.dir/main.cpp.o: ../Sort.h
 CMakeFiles/Sort.dir/main.cpp.o: ../main.cpp
 

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/BubbleSort.cpp" "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/cmake-build-debug/CMakeFiles/Sort.dir/BubbleSort.cpp.o"
   "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/InsertSort.cpp" "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/cmake-build-debug/CMakeFiles/Sort.dir/InsertSort.cpp.o"
   "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/MergeSort.cpp" "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/cmake-build-debug/CMakeFiles/Sort.dir/MergeSort.cpp.o"
+  "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/QuickSort.cpp" "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/cmake-build-debug/CMakeFiles/Sort.dir/QuickSort.cpp.o"
   "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/main.cpp" "/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/cmake-build-debug/CMakeFiles/Sort.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

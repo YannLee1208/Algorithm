@@ -3,4 +3,4 @@ project(Sort)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Sort main.cpp MergeSort.cpp BubbleSort.cpp Sort.h InsertSort.cpp)
+add_executable(Sort main.cpp MergeSort.cpp BubbleSort.cpp Sort.h InsertSort.cpp QuickSort.cpp)

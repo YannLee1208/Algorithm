@@ -23,6 +23,14 @@ Sort.h
 /Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
 iostream
 /Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/iostream
+InsertSort.cpp
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/InsertSort.cpp
+
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/QuickSort.cpp
+Sort.h
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
+iostream
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/iostream
 
 /Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
 
@@ -35,8 +43,8 @@ Sort.h
 /Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h
 BubbleSort.cpp
 /Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/BubbleSort.cpp
-InsertSort.cpp
-/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/InsertSort.cpp
 MergeSort.cpp
 /Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/MergeSort.cpp
+QuickSort.cpp
+/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/QuickSort.cpp
 

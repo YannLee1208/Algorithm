@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sort.dir/BubbleSort.cpp.o"
   "CMakeFiles/Sort.dir/InsertSort.cpp.o"
   "CMakeFiles/Sort.dir/MergeSort.cpp.o"
+  "CMakeFiles/Sort.dir/QuickSort.cpp.o"
   "CMakeFiles/Sort.dir/main.cpp.o"
   "Sort"
   "Sort.pdb"

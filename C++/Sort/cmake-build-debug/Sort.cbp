@@ -89,6 +89,9 @@
 		<Unit filename="/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/MergeSort.cpp">
 			<Option target="Sort"/>
 		</Unit>
+		<Unit filename="/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/QuickSort.cpp">
+			<Option target="Sort"/>
+		</Unit>
 		<Unit filename="/Users/apple/Desktop/CS/算法/Algorithm/C++/Sort/Sort.h">
 			<Option target="Sort"/>
 		</Unit>
